@@ -33,6 +33,7 @@ function take {
     cd $1
 }
 
+## 🏮 Ruby
 function r {
   ruby $1.rb
 }
