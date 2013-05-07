@@ -1,0 +1,50 @@
+# Alias & Function Editing
+alias rl="source ~/bin/dotfiles/bash/aliases"
+alias ea="mate ~/bin/dotfiles/bash/aliases"
+#
+# DOCPAD
+alias d="docpad"
+alias dr="docpad run"
+alias cddp="cd ~/dev/pspegg.co"
+## Install Docpad Plugin
+function di() {
+  sudo npm install --save docpad-plugin-$1
+}
+# ---
+
+alias tu='top -o cpu' #CPU
+alias tm='top -o vsize' #Memory
+
+# Git
+alias g="git"
+alias gs="git status"
+## Commit pending changes and quote all args as message
+function gg() { 
+    git commit -v -a -m "$*"
+}
+# add and remove new/deleted files from git index automatically
+alias gitar="git ls-files -d -m -o -z --exclude-standard | xargs -0 git update-index --add --remove"
+# ---
+
+alias ..="cd .."
+alias ~="cd ~"
+alias m="mate"
+
+function take {
+    mkdir $1
+    cd $1
+}
+
+function r {
+  ruby $1.rb
+}
+
+## Remotes
+alias rssh="ssh -R 52698:localhost:52698 liu@199.19.86.159"
+function oins {
+  open -a Safari $1
+}
+
+# DRANG open with duplicate fix
+alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+#

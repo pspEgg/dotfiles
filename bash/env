@@ -1,0 +1,18 @@
+export PATH=/usr/local/git/bin:$PATH
+
+### DAN BENJAMIN ###
+
+# have programs open textmate if they require editor
+# refereced in programes as $EDITOR
+export EDITOR="mate -w"
+
+# have programs in bin to be under source control
+# $PATH => current path
+export PATH=$PATH:~/bin 
+
+### dan benjamin ##
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="$PATH:/usr/local/git/bin:/usr/local/bin"
+
