@@ -2,12 +2,12 @@
 
 2013-05-07 Structure from Dan Benjamin's Peedcode advanced command line tutorials.
 
-├── README.md
-├── bash
-│   ├── aliases
-│   ├── config
-│   └── env
-└── bashrc
+    ├── README.md
+    ├── bash
+    │   ├── aliases
+    │   ├── config
+    │   └── env
+    └── bashrc
 
 ## Miscellaneous
 
