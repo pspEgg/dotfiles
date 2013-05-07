@@ -1,6 +1,7 @@
 # Alias & Function Editing
 alias rl="source ~/bin/dotfiles/bash/aliases"
 alias ea="mate ~/bin/dotfiles/bash/aliases"
+alias dot="cd ~/bin/dotfiles"
 #
 # DOCPAD
 alias d="docpad"
@@ -41,6 +42,7 @@ function r {
 
 ## Remotes
 alias rssh="ssh -R 52698:localhost:52698 liu@199.19.86.159"
+alias mtd="cd mounts/mini/dev"
 function oins {
   open -a Safari $1
 }
@@ -48,3 +50,14 @@ function oins {
 # DRANG open with duplicate fix
 alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
 #
+
+# Slogger
+function stree(){
+  tree plugins/ plugins_disabled/
+}
+function sdis() {
+  mv -v plugins/$1.rb plugins_disabled/
+}
+function sen() {
+  mv -v plugins/$1.rb plugins_disabled/
+}
