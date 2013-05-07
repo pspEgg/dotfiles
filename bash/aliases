@@ -11,10 +11,7 @@ alias cddp="cd ~/dev/pspegg.co"
 function di() {
   sudo npm install --save docpad-plugin-$1
 }
-# ---
 
-alias tu='top -o cpu' #CPU
-alias tm='top -o vsize' #Memory
 
 # Git
 alias g="git"
@@ -61,3 +58,9 @@ function sdis() {
 function sen() {
   mv -v plugins/$1.rb plugins_disabled/
 }
+# ---
+
+# System Monitor
+alias tu='top -o cpu' #CPU
+alias tm='top -o vsize' #Memory
+# ---
