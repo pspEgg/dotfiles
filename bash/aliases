@@ -38,7 +38,7 @@ function r {
   ruby $1.rb
 }
 
-## Remotes
+## 🌑 Remotes
 alias rssh="ssh -R 52698:localhost:52698 liu@199.19.86.159"
 alias mtd="cd mounts/mini/dev"
 function oins {
