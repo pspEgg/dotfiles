@@ -65,3 +65,6 @@ function sen() {
 alias tu='top -o cpu' #CPU
 alias tm='top -o vsize' #Memory
 # ---
+
+#MMD Preview Custom Styles
+alias emmd='mate ~/bin/dotfiles/mdqlstyle.css'

@@ -1,0 +1,11 @@
+body{
+  font-family:Lyon Text;
+}
+code, pre{
+  font-family:Source Code Pro;
+  font-weight:400;
+}
+code{
+  background-color: #eee;
+  margin:0 0.5em;
+}
