@@ -1,7 +1,10 @@
 # Alias & Function Editing
 alias rl="source ~/bin/dotfiles/bash/aliases"
+alias na="nano ~/bin/dotfiles/bash/aliases"
 alias ea="mate ~/bin/dotfiles/bash/aliases"
 alias dot="cd ~/bin/dotfiles"
+
+alias iw="~/music/itunes/iTunes Media/Automatically Add to iTunes.localized/"
 #
 # DOCPAD
 alias d="docpad"
