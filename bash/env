@@ -1,5 +1,9 @@
 export PATH=/usr/local/git/bin:$PATH
 
+# For Prompt by Panic
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 ### DAN BENJAMIN ###
 
 # have programs open textmate if they require editor
