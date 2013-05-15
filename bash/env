@@ -8,7 +8,7 @@ export LANG=en_US.UTF-8
 
 # have programs open textmate if they require editor
 # refereced in programes as $EDITOR
-export EDITOR="mate -w"
+ export EDITOR="nano"
 
 # have programs in bin to be under source control
 # $PATH => current path
