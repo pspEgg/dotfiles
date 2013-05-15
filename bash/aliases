@@ -6,7 +6,7 @@ alias dot="cd ~/bin/dotfiles"
 # iTunes
 alias cdiw="cd ~/music/itunes/iTunes\ Media/Automatically\ Add\ to\ iTunes.localized"
 function cpiw {
-cp $1 ~/music/itunes/iTunes\ Media/Automatically\ Add\ to\ iTunes.localized/
+cp -R $1 ~/music/itunes/iTunes\ Media/Automatically\ Add\ to\ iTunes.localized/
 }
 #
 # DOCPAD
